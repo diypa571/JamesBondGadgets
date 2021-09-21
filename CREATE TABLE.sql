@@ -1,3 +1,7 @@
+CREATE DATABASE [BondGadgetDatabase]; 
+GO
+
+
 CREATE TABLE [dbo].[Gadgets] (
     [ID]            INT           IDENTITY (1, 1) NOT NULL,
     [Name]          VARCHAR (MAX) NULL,
